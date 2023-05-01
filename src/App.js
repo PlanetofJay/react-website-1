@@ -2,18 +2,17 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import HeroSection from './components/HeroSection';
 
-function App() {
+export default function App() {
   return (
     <>
       <Router>
         <Navbar />
           <Routes>
-            <Route path='/' />
+            <Route path='/' element={<HeroSection />} />
           </Routes>
       </Router>
     </>
   );
 }
-
-export default App;
