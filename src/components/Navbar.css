@@ -1,0 +1,10 @@
+
+
+.navbar-logo {
+  font-size: 30px;
+  display: flex;
+}
+
+.menu-icon {
+  cursor: pointer;
+}
