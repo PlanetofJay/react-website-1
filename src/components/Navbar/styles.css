@@ -22,17 +22,12 @@
 .navbar-logo {
   color: #fff;
   justify-self: start;
-  margin-left: 15px;
+  margin-left: 0;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   display: flex;
   align-items: center;
-}
-
-.fa-typo3 {
-  margin-left: 0.5rem;
-  font-size: 1.8rem;
 }
 
 .nav-menu {

@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import HeroSection from './components/HeroSection';
+import Home from './pages/Home';
 
 export default function App() {
   return (
@@ -10,7 +10,7 @@ export default function App() {
       <Router>
         <Navbar />
           <Routes>
-            <Route path='/' element={<HeroSection />} />
+            <Route path='/' element={<Home />} />
           </Routes>
       </Router>
     </>
