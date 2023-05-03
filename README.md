@@ -1,8 +1,8 @@
 # Project - GOtravel React Website
 
-<img width="500" src="images/HeroSection.png">
-<img width="500" src="images/Cards.png">
-<img width="500" src="images/Footer.png">
+<img width="70%" src="./public/images/HeroSection.png">
+<img width="70%" src="./public/images/Cards.png">
+<img width="70%" src="./public/images/Footer.png">
 
 # Getting Started with Create React App
 
