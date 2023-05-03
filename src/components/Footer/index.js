@@ -20,11 +20,11 @@ export default function Footer() {
         </p>
         <div className='input-areas'>
           <form>
-            <input 
-              type='email' 
-              name='email' 
-              placeholder='Your Email' 
-              className='footer-input' 
+            <input
+              className='footer-input'
+              type='email'
+              name='email'
+              placeholder='Your Email'
             />
             <Button buttonStyle='btn--outline'>Subscribe</Button>
           </form>
@@ -40,7 +40,7 @@ export default function Footer() {
             <Link to='/'>Investors</Link>
             <Link to='/'>Terms of Service</Link>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
@@ -49,14 +49,14 @@ export default function Footer() {
           </div>
         </div>
         <div className='footer-link-wrapper'>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
             <Link to='/'>Ambassadors</Link>
             <Link to='/'>Agency</Link>
             <Link to='/'>Influencer</Link>
           </div>
-          <div class='footer-link-items'>
+          <div className='footer-link-items'>
             <h2>Social Media</h2>
             <Link to='/'>Instagram</Link>
             <Link to='/'>Facebook</Link>
@@ -67,13 +67,11 @@ export default function Footer() {
       </div>
       <section className='social-media'>
         <div className='social-media-wrapper'>
-          <div className='footer-logo'>
-            <Link to='/' className='sicial-media-logo'>
-              GO travel
-            </Link>
-          </div>
+          <Link to='/' className='social-media-logo'>
+            GO travel
+          </Link>
           <small className='website-rights'>&copy;2023 GO travel, all rights reserved.</small>
-          <div className='social-icons'>
+          <div className='social-media-icons'>
             <a href='https://github.com/PlanetofJay' target='_blank' rel="noreferrer">
               <GithubIcon />
             </a>
