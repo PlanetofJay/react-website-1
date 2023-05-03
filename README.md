@@ -1,3 +1,9 @@
+# Project - GOtravel React Website
+
+<img width="500" src="images/HeroSection.png">
+<img width="500" src="images/Cards.png">
+<img width="500" src="images/Footer.png">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
