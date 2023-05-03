@@ -17,11 +17,6 @@ export default function App() {
             <Route path='/services' element={<Services />} />
             <Route path='/products' element={<Products />} />
             <Route path='/sign-up' element={<SignUp />} />
-
-            <Route path='/react-website-1' element={<Home />} />
-            <Route path='/react-website-1/services' element={<Services />} />
-            <Route path='/react-website-1/products' element={<Products />} />
-            <Route path='/react-website-1/sign-up' element={<SignUp />} />
           </Routes>
       </Router>
     </>
