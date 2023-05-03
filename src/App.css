@@ -17,7 +17,7 @@
 }
 
 .services {
-  background-image: url('/public/images/img-services.jpg');
+  background-image: url('./assets/img-services.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@
 }
 
 .products {
-  background-image: url('/public/images/img-products.jpg');
+  background-image: url('./assets/img-products.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,7 +35,7 @@
 }
 
 .sign-up {
-  background-image: url('/public/images/img-signup.jpg');
+  background-image: url('./assets/img-signup.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

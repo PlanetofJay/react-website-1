@@ -3,10 +3,12 @@ import '../../App.css';
 import { Button } from '../Button';
 import './styles.css';
 
+import homeVideo from './../../videos/video-2.mp4';
+
 export default function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='./../../../public/videos/video-2.mp4' autoPlay loop muted />
+      <video src={homeVideo} autoPlay loop muted />
       <h1>ADVENTURE IS OUT THERE</h1>
       <p>What are you waiting for?</p>
       <div className='hero-btns'>
