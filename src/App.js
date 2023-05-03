@@ -13,6 +13,7 @@ export default function App() {
       <Router>
         <Navbar />
           <Routes>
+            <Route path='/' element={<Home />} />
             <Route path='/react-website-1' element={<Home />} />
             <Route path='/services' element={<Services />} />
             <Route path='/products' element={<Products />} />
